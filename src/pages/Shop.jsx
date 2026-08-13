@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useDeferredValue } from "react";
 import { useSearchParams } from "react-router-dom";
 import { PRODUCTS, CATEGORIES } from "../data/products";
 import { ProductCard } from "../components/ProductCard";
@@ -9,6 +9,7 @@ const Shop = () => {
   const [searchParams] = useSearchParams();
   const categoryQuery = searchParams.get("category");
   const [search, setSearch] = useState("");
+  const deferredSearch = useDeferredValue(search);
   const [category, setCategory] = useState(categoryQuery || "all");
   const [sort, setSort] = useState("featured");
   const filteredProducts = useMemo(() => {
@@ -16,8 +17,8 @@ const Shop = () => {
     if (category !== "all") {
       result = result.filter((p) => p.category === category);
     }
-    if (search) {
-      const q = search.toLowerCase();
+    if (deferredSearch) {
+      const q = deferredSearch.toLowerCase();
       result = result.filter(
         (p) => p.title.toLowerCase().includes(q) || p.description.toLowerCase().includes(q)
       );
@@ -39,7 +40,7 @@ const Shop = () => {
         break;
     }
     return result;
-  }, [search, category, sort]);
+  }, [deferredSearch, category, sort]);
   return <div className="min-h-screen bg-ink pb-8">
       <SEO
     title="Shop"

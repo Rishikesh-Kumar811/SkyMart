@@ -48,7 +48,7 @@ const Home = () => {
     className="group flex items-center gap-3 p-2.5 hover:bg-white/5 border border-transparent hover:border-white/10 rounded-xl transition-all duration-300 ease-apple transform-gpu"
   >
             <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shrink-0 p-1.5">
-              <img src={p.image} alt={p.title} className="w-full h-full object-contain mix-blend-multiply" />
+              <img src={p.image} alt={p.title} loading="lazy" className="w-full h-full object-contain mix-blend-multiply" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-white/70 text-[clamp(0.65rem,2cqw,0.75rem)] line-clamp-1">{p.title}</p>

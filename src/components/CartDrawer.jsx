@@ -50,6 +50,7 @@ const CartDrawer = () => {
                   <img
     src={item.product.image}
     alt={item.product.title}
+    loading="lazy"
     className="w-full h-full object-contain mix-blend-screen drop-shadow-md"
   />
                 </div>
