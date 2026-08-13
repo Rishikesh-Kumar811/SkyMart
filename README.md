@@ -1,16 +1,10 @@
 <div align="center">
 
-<br/><br/>
-
 <h1>🛒 SkyMart</h1>
 
 ### Full-Featured E-Commerce Single Page Application
 
-<br/>
-
 A production-ready e-commerce SPA featuring multi-page routing, slide-out cart drawer, product search & filtering, star ratings, and simulated authentication — built with React 19 & Vite 8.
-
-<br/><br/>
 
 <p align="center">
   <a href="https://sky-mart-tau-black.vercel.app"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
@@ -18,19 +12,13 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
   <a href="https://github.com/Rishikesh-Kumar811/SkyMart/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
 </p>
 
-<br/>
-
 </div>
-
-<br/>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="Tech Stack" />
 </p>
-
-<br/>
 
 <h2 align="center">✨ Features</h2>
 
@@ -43,13 +31,9 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 | 🏷️ **Dynamic SEO Component** | Custom `SEO.jsx` for per-page meta tag updates |
 | 💎 **Lucide React Iconography** | Crisp, scalable vector icons maintaining polished visual hierarchy |
 
-<br/>
-
 <h2 align="center">🏗️ Architecture</h2>
 
 > React Context API for global state (CartContext, AuthContext) with atomic component hierarchy. React Router v7 client-side SPA with Vite 8 HMR.
-
-<br/>
 
 <h2 align="center">🚀 Quick Start</h2>
 
@@ -64,11 +48,7 @@ cd SkyMart && npm install
 npm run dev
 \`\`\`
 
-<br/>
-
 <div align="center">
-
-<br/>
 
 <h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 
