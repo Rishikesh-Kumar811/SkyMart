@@ -2,7 +2,7 @@
 
 <br/>
 
-# 🛒 SkyMart
+<h1>🛒 SkyMart</h1>
 
 ### Full-Featured E-Commerce Single Page Application
 
