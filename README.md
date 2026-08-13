@@ -14,11 +14,15 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 
 </div>
 
+<br/>
+
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="Tech Stack" />
 </p>
+
+<br/>
 
 <h2 align="center">✨ Features</h2>
 
@@ -31,9 +35,13 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 | 🏷️ **Dynamic SEO Component** | Custom `SEO.jsx` for per-page meta tag updates |
 | 💎 **Lucide React Iconography** | Crisp, scalable vector icons maintaining polished visual hierarchy |
 
+<br/>
+
 <h2 align="center">🏗️ Architecture</h2>
 
 > React Context API for global state (CartContext, AuthContext) with atomic component hierarchy. React Router v7 client-side SPA with Vite 8 HMR.
+
+<br/>
 
 <h2 align="center">🚀 Quick Start</h2>
 
@@ -47,6 +55,8 @@ cd SkyMart && npm install
 # Start the dev server
 npm run dev
 \`\`\`
+
+<br/>
 
 <div align="center">
 
