@@ -1,9 +1,4 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/-SkyMart-4f46e5?style=for-the-badge" alt="Banner Badge" />
-  
-  <br />
-  <br />
-
   # 🌟 SkyMart
   **A modern e-commerce web app.** <br/>
   Features advanced state management, a dynamic shopping cart, responsive UI, and deep performance optimizations.
@@ -11,10 +6,10 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /> &nbsp;
-    <img src="https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> &nbsp;
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" /> &nbsp;
-    <img src="https://img.shields.io/badge/-JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" /> &nbsp;
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" /> &nbsp;
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" /> &nbsp;
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   </div>
   
 </div>
@@ -24,7 +19,7 @@
 ## 📸 Visuals & Live Demo
 *(Placeholder: Insert a beautiful screenshot or GIF of the UI here to demonstrate the application working in a production environment).*
 
-> **[View Live Demo](#) | [Report Bug](#) | [Request Feature](#)**
+> **[View Live Demo](https://sky-mart-tau-black.vercel.app) | [Report Bug](https://github.com/Rishikesh-Kumar811/SkyMart/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/SkyMart/issues)**
 
 ---
 
@@ -66,5 +61,5 @@ npm run dev
 
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
-  <img src="https://img.shields.io/badge/-Built_with_Love-ff69b4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" />
 </div>
