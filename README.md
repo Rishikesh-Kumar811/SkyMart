@@ -1,6 +1,6 @@
 <div align="center">
 
-<br/>
+<br/><br/>
 
 <h1>🛒 SkyMart</h1>
 
@@ -10,13 +10,15 @@
 
 A production-ready e-commerce SPA featuring multi-page routing, slide-out cart drawer, product search & filtering, star ratings, and simulated authentication — built with React 19 & Vite 8.
 
-<br/>
+<br/><br/>
 
 <p align="center">
   <a href="https://sky-mart-tau-black.vercel.app"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
   <a href="https://github.com/Rishikesh-Kumar811/SkyMart/issues"><img src="https://img.shields.io/badge/Report_Bug-e11d48?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
   <a href="https://github.com/Rishikesh-Kumar811/SkyMart/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
 </p>
+
+<br/>
 
 </div>
 
