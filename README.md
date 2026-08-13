@@ -6,10 +6,10 @@
   <br />
 
   <div align="center">
-    <img src="https://badgen.net/badge/icon/Vite?icon=vite&color=646CFF" alt="Vite" height="28" /> &nbsp;
-    <img src="https://badgen.net/badge/icon/React?icon=react&color=20232A" alt="React" height="28" /> &nbsp;
-    <img src="https://badgen.net/badge/icon/Tailwind?icon=tailwindcss&color=38B2AC" alt="TailwindCSS" height="28" /> &nbsp;
-    <img src="https://badgen.net/badge/icon/JavaScript?icon=javascript&color=323330" alt="JavaScript" height="28" />
+    <img src="https://badgen.net/badge/Vite/%20/646CFF?icon=vite&labelColor=646CFF" alt="Vite" height="36" /> &nbsp;
+    <img src="https://badgen.net/badge/React/%20/20232A?icon=react&labelColor=20232A" alt="React" height="36" /> &nbsp;
+    <img src="https://badgen.net/badge/TailwindCSS/%20/38B2AC?icon=tailwindcss&labelColor=38B2AC" alt="TailwindCSS" height="36" /> &nbsp;
+    <img src="https://badgen.net/badge/JavaScript/%20/323330?icon=javascript&labelColor=323330" alt="JavaScript" height="36" />
   </div>
   
 </div>
@@ -62,5 +62,5 @@ npm run dev
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
   <br/>
-  <img src="https://badgen.net/badge/Built%20with/Love/ff69b4?icon=heart" height="28" />
+  <img src="https://badgen.net/badge/Built%20with/%20/ff69b4?icon=heart&labelColor=ff69b4" height="36" />
 </div>
