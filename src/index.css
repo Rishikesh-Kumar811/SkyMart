@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap');
+@theme {
+  --color-volt: #c8f400;
+  --color-ink: #0d0d0d;
+  --color-surface: #111111;
+  --font-heading: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --ease-apple: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --animate-slide-up: slideUp 0.5s var(--ease-apple) forwards;
+  --animate-float-smooth: float-smooth 6s ease-in-out infinite;
+  @keyframes float-smooth {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+}
+@layer base {
+  body {
+    background-color: var(--color-ink);
+    color: white;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+a, button, [role="button"], select, input[type="submit"], input[type="button"], .cursor-pointer {
+  cursor: pointer;
+}
+button:active, a:active {
+  transform: scale(0.97);
+  transition: transform 0.2s var(--ease-apple);
+}
+*:focus-visible {
+  outline: 2px solid #c8f400;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+::selection {
+  background-color: rgba(200, 244, 0, 0.3);
+  color: white;
+}
+* {
+  scroll-behavior: smooth;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
