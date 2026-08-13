@@ -24,7 +24,7 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 
 <br/>
 
-<h3 align="center">🛠️ Tech Stack</h3>
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="Tech Stack" />
@@ -45,13 +45,13 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 
 <br/>
 
-<h3 align="center">🏗️ Architecture</h3>
+<h2 align="center">🏗️ Architecture</h2>
 
 > React Context API for global state (CartContext, AuthContext) with atomic component hierarchy. React Router v7 client-side SPA with Vite 8 HMR.
 
 <br/>
 
-<h3 align="center">🚀 Quick Start</h3>
+<h2 align="center">🚀 Quick Start</h2>
 
 \`\`\`bash
 # Clone the repository
