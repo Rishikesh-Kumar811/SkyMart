@@ -34,12 +34,14 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 
 <h2 align="center">✨ Features</h2>
 
-- 🛒 **Slide-Out Cart Drawer** — Global `CartDrawer.jsx` with add/remove, quantity scaling & live subtotal calculation
-- 🔀 **React Router v7 SPA Routing** — Seamless client-side navigation across Home, Shop, Product Detail, About & Auth pages
-- 🔍 **Advanced Product Discovery** — Search bar filtering, category selectors, price sorting & star rating displays
-- 🔐 **Auth Simulation** — User state management via `AuthContext.jsx` with login/register flow
-- 🏷️ **Dynamic SEO Component** — Custom `SEO.jsx` for per-page meta tag updates
-- 💎 **Lucide React Iconography** — Crisp, scalable vector icons maintaining polished visual hierarchy
+| 🎯 Core Feature | ✨ Technical Implementation |
+| :--- | :--- |
+| 🛒 **Slide-Out Cart Drawer** | Global `CartDrawer.jsx` with add/remove, quantity scaling & live subtotal calculation |
+| 🔀 **React Router v7 SPA Routing** | Seamless client-side navigation across Home, Shop, Product Detail, About & Auth pages |
+| 🔍 **Advanced Product Discovery** | Search bar filtering, category selectors, price sorting & star rating displays |
+| 🔐 **Auth Simulation** | User state management via `AuthContext.jsx` with login/register flow |
+| 🏷️ **Dynamic SEO Component** | Custom `SEO.jsx` for per-page meta tag updates |
+| 💎 **Lucide React Iconography** | Crisp, scalable vector icons maintaining polished visual hierarchy |
 
 <br/>
 
