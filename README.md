@@ -6,10 +6,10 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="30" />
+    <img src="https://badgen.net/badge/icon/Vite?icon=vite&color=646CFF" alt="Vite" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/React?icon=react&color=20232A" alt="React" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/Tailwind?icon=tailwindcss&color=38B2AC" alt="TailwindCSS" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/JavaScript?icon=javascript&color=323330" alt="JavaScript" height="28" />
   </div>
   
 </div>
@@ -26,14 +26,14 @@
 ## ✨ Key Features & UI/UX Highlights
 This repository is built with a strict focus on modern web standards, beautiful responsive design, and high performance.
 
-- **Advanced Cart Logic**: Complex state handling for adding, removing, and calculating totals in real-time.
-- **Responsive Product Grid**: Auto-fitting CSS Grid integrated with Tailwind for seamless product display on mobile and desktop.
-- **Optimized Asset Loading**: Images and components are optimized to ensure a near-instant First Contentful Paint (FCP).
-- **Polished Micro-Interactions**: Hover states, active button states, and smooth transitions that elevate the perceived quality of the app.
+- **SPA Routing**: Seamless page transitions and protected routes powered by React Router DOM, ensuring a fluid desktop-like experience.
+- **Advanced Cart Logic**: Complex state handling for adding, removing, and calculating totals in real-time without layout shifts.
+- **Responsive Product Grid**: Auto-fitting CSS Grid integrated with Tailwind for perfect product display on mobile and desktop.
+- **Modern Iconography**: Polished visual hierarchy using Lucide React for crisp, scalable vector icons.
 
 ## 🧠 Architecture & Technical Logic
 **Why this stack?**  
-SkyMart represents a production-ready frontend architecture. It utilizes React's Context API for global cart state, avoiding prop-drilling. The UI is built with a mobile-first philosophy, using Tailwind to gracefully scale layouts.
+SkyMart represents a production-ready frontend architecture. It utilizes React Router for client-side navigation and Vite for lightning-fast HMR. The UI is built with a mobile-first philosophy, gracefully scaling layouts.
 
 The project emphasizes a clean directory structure, separation of concerns, and maintainable styles, serving as a testament to scalable frontend engineering.
 
@@ -62,5 +62,5 @@ npm run dev
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
   <br/>
-  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" height="32" />
+  <img src="https://badgen.net/badge/Built%20with/Love/ff69b4?icon=heart" height="28" />
 </div>
