@@ -32,7 +32,7 @@ A production-ready e-commerce SPA featuring multi-page routing, slide-out cart d
 
 <br/>
 
-<h3 align="center">✨ Features</h3>
+<h2 align="center">✨ Features</h2>
 
 | 🎯 Core Feature | ✨ Technical Implementation |
 | :--- | :--- |
