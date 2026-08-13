@@ -66,13 +66,7 @@ npm run dev
 
 <br/>
 
-**[⬆ Back to Top](#skymart)**
-
-<br/>
-
-<a href="https://github.com/Rishikesh-Kumar811/SkyMart/stargazers"><img src="https://img.shields.io/github/stars/Rishikesh-Kumar811/SkyMart?style=for-the-badge&color=f5a623&label=Star%20this%20Repo" alt="Stars" /></a>
-
-<sub>Built with ♥ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></sub>
+<h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 
 </div>
 
