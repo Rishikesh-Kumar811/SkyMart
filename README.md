@@ -1,67 +1,148 @@
 <div align="center">
 
-<h1>🛒 SkyMart</h1>
+# 🛒 SkyMart 2026 — Next-Gen E-Commerce Suite & 🌐 Live Demo
 
-### Full-Featured E-Commerce Single Page Application
+**A modern, high-performance digital storefront engineered with React 19, Tailwind CSS v4, and Vite featuring dynamic shopping cart state synchronization, multi-facet product filtering, and responsive checkout UX.**
 
-A production-ready e-commerce SPA featuring multi-page routing, slide-out cart drawer, product search & filtering, star ratings, and simulated authentication — built with React 19 & Vite 8.
+<br/>
 
-<p align="center">
-  <a href="https://sky-mart-tau-black.vercel.app"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
-  <a href="https://github.com/Rishikesh-Kumar811/SkyMart/issues"><img src="https://img.shields.io/badge/Report_Bug-e11d48?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
-  <a href="https://github.com/Rishikesh-Kumar811/SkyMart/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
-</p>
+<a href="https://sky-mart-tau-black.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/LIVE_DEMO-SKY_MART-0070F3?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Rishikesh-Kumar811/SkyMart" target="_blank"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
+
+<br/><br/>
 
 </div>
 
+---
+
+## 🛠️ Tech Stack
+
 <br/>
 
-<h2 align="center">🛠️ Tech Stack</h2>
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css,vercel,vscode,git,github" alt="Tech Stack" />
 </p>
 
 <br/>
 
-<h2 align="center">✨ Features</h2>
-
-| 🎯 Core Feature | ✨ Technical Implementation |
-| :--- | :--- |
-| 🛒 **Slide-Out Cart Drawer** | Global `CartDrawer.jsx` with add/remove, quantity scaling & live subtotal calculation |
-| 🔀 **React Router v7 SPA Routing** | Seamless client-side navigation across Home, Shop, Product Detail, About & Auth pages |
-| 🔍 **Advanced Product Discovery** | Search bar filtering, category selectors, price sorting & star rating displays |
-| 🔐 **Auth Simulation** | User state management via `AuthContext.jsx` with login/register flow |
-| 🏷️ **Dynamic SEO Component** | Custom `SEO.jsx` for per-page meta tag updates |
-| 💎 **Lucide React Iconography** | Crisp, scalable vector icons maintaining polished visual hierarchy |
+| Layer | Technologies & Modern Standards | Implementation in Codebase |
+| :--- | :--- | :--- |
+| **UI Framework** | **React 19** • Functional Components • Hooks | Modern component architecture, virtual DOM reconciliation, stateful cart drawer management, and responsive product catalog rendering. |
+| **Styling & UI Tokens** | **Tailwind CSS v4** • **Clsx** • **Lucide Icons** | High-velocity utility styling, dynamic class composition (`clsx`), fluid `clamp()` spacing scales, and scalable Lucide React icons. |
+| **Code Quality & Linting** | **Oxlint** • **PostCSS** • **ESM Modules** | Ultra-fast Rust-based static analysis with Oxlint, modern ECMAScript module resolution, and clean code hygiene. |
+| **Build & Tooling** | **Vite** • **Vercel** • **Git** • **GitHub** | Next-generation bundler with instant Hot Module Replacement (HMR), production code-splitting, and Vercel edge deployment. |
 
 <br/>
 
-<h2 align="center">🏗️ Architecture</h2>
+---
 
-> React Context API for global state (CartContext, AuthContext) with atomic component hierarchy. React Router v7 client-side SPA with Vite 8 HMR.
+## ✨ Key Features
 
 <br/>
 
-<h2 align="center">🚀 Quick Start</h2>
+### 1. 🛍️ Dynamic Shopping Cart & Real-Time Calculations
+- **Slide-Over Cart Drawer**: Non-intrusive flyout cart with instant item quantity adjustments, remove triggers, and clear operations.
+- **Real-Time Financial Calculations**: Subtotal, taxes, shipping discounts, and total order computations calculated atomically in memory.
+- **Cart Badge Synchronization**: Persistent live counter badge on the header navigation updating instantaneously on user interactions.
 
-\`\`\`bash
-# Clone the repository
+### 2. 🔍 Multi-Facet Product Filtering & Catalog Grid
+- **Category Segmentation**: Instant client-side filtering across diverse merchandise departments without full page reloads.
+- **Dynamic Search Filtering**: High-speed keyword query matching across product titles, tags, and pricing ranges.
+- **Visual Card Elements**: High-definition thumbnail displays, rating badges, stock status indicators, and direct add-to-cart buttons.
+
+### 3. ⚡ React 19 Performance & Zero-Lag UX
+- **Optimal State Management**: Minimal re-render boundaries ensuring smooth interactions even with large product lists.
+- **Touch-Friendly Controls**: Generous touch target sizing specifically calibrated for mobile and tablet commerce.
+
+### 4. 📱 Flawless Responsive Breakpoints
+- **Fluid Layout Reflow**: Automatic grid rearrangement from single-column mobile view to 4-column wide desktop layouts.
+- **Locked Visual Hierarchy**: Proportionate visual weight maintained across mobile displays up to 4K ultra-wide monitors.
+
+<br/>
+
+---
+
+## 📁 Project Directory Structure
+
+<br/>
+
+<details>
+<summary><b>Click to expand project tree</b></summary>
+
+```ascii
+SkyMart/
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── components/
+│   │   ├── CartDrawer.jsx
+│   │   ├── Header.jsx
+│   │   ├── ProductCard.jsx
+│   │   └── ProductGrid.jsx
+│   └── data/
+│       └── products.js
+└── README.md
+```
+
+</details>
+
+<br/>
+
+---
+
+## ⚡ Engineering Highlights
+
+- **React 19 & Tailwind v4 Powered**: Built with the latest stable versions of modern frontend technologies.
+- **Optimized Production Bundle**: Tree-shaken bundle ensuring minimal JavaScript payload transfer over the network.
+- **High SEO & Accessibility Standards**: Accessible ARIA labels on all modal and cart interaction buttons.
+
+<br/>
+
+---
+
+## 🚀 Quick Start & Local Setup
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/Rishikesh-Kumar811/SkyMart.git
+cd SkyMart
+```
 
-# Navigate & install
-cd SkyMart && npm install
+### 2. Install dependencies
+```bash
+npm install
+```
 
-# Start the dev server
+### 3. Run development server
+```bash
 npm run dev
-\`\`\`
+```
+
+Visit `http://localhost:5173` in your web browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
 
 <br/>
+
+---
+
+## 👨‍💻 Author & Connect
+
+| Developer | Portfolio / Profile | Live Platform |
+| :--- | :--- | :--- |
+| **Rishikesh Kumar** | [@Rishikesh-Kumar811](https://github.com/Rishikesh-Kumar811) | [SkyMart Storefront](https://sky-mart-tau-black.vercel.app/) |
+
+---
 
 <div align="center">
-
-<h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
-
+  <sub>Engineered with precision by Rishikesh Kumar • 2026 Spec</sub>
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=footer" />
